@@ -3,15 +3,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 22px;
   text-decoration-line: underline;
-  transition: opacity ease 1s;
+  transition: opacity ease .3s;
   margin: 0;
   padding: 0;
 } 
 
 .place__link:hover {
-  opacity: 0.5;
+  opacity: .8;
 }
 
 @media screen and (max-width: 425px) {

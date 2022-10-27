@@ -22,9 +22,9 @@
   left: 0;
   content: '';
   position: absolute;
-  opacity: .3;
+  transition: opacity ease .3s;
 }
-  
+
 .cover__background:hover::before {
   opacity: .8;
 }

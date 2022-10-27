@@ -4,7 +4,7 @@
   margin: 0 auto;
   padding: 0;
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -16,25 +16,20 @@
   background-image: url(../../images/cover.jpg);
 }
 
-.cover:hover {
-  opacity: 0.8;
-}
-  
 @media screen and (max-width: 1024px) {
   .cover {
-    max-height: 640px;
-    left: 0;  
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    max-height: 200px;
+    min-height: 200px;
   }
 }
