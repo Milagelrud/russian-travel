@@ -7,4 +7,4 @@
 - grid layout.
 - Адаптивная верстка с помощью медиазапросов.
 
-[Ссылка на сайт](https://github.com/Milagelrud/russian-travel)
+[Ссылка на сайт](https://milagelrud.github.io/russian-travel/index.html)
