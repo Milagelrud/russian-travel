@@ -15,16 +15,35 @@
 }
   
 .cover__background:before {
+  position: absolute;
+  content: '';
   background: #2A2C2F;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
-  content: '';
-  position: absolute;
-  transition: opacity ease .3s;
+  opacity: .3;
+  transition: opacity .3s ease;
 }
 
 .cover__background:hover::before {
   opacity: .8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__background {
+    min-height: 200px;
+  }
 }
