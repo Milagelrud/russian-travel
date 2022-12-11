@@ -1,17 +1,16 @@
 .cover__background {
-  color: #fff;
   display: flex;
   flex-direction: column;
   max-width: 1184px;
-  min-height: 740px;
+  height: 740px;
   justify-content: center;
   position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-decoration: none;
-  height: 100%;
   width: 100%;
+  outline: 1px solid red;
 }
   
 .cover__background:before {
@@ -33,17 +32,22 @@
 @media screen and (max-width: 1279px) {
   .cover__background {
     min-height: 640px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
     min-height: 480px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__background {
     min-height: 200px;
+    max-width: 320px;
   }
 }
+
+

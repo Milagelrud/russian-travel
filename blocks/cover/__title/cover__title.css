@@ -8,9 +8,10 @@
   padding: 0;
   text-align: center;
   z-index: 1;
+  outline: 1px solid red;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cover__title {
     max-width: 250px;
     font-size: 32px;

@@ -1,4 +1,5 @@
 .photo-grid__item {
   width: 100%;
   object-fit: cover;
+  outline: 1px solid red;
 }
