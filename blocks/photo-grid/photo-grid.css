@@ -4,7 +4,7 @@
   gap: 16px 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-  margin: 92px auto 0;
+  margin: 92px auto 92px;
   outline: 1px solid red;
 }
   
@@ -23,15 +23,16 @@
     gap: 16px;
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
+    margin: 88px auto 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .photo-grid {
-    min-width: 288px;
+    max-width: 288px;
     gap: 12px;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
-    margin: 64px 16px 0;
+    margin: 64px auto 64px auto;
   }
 }

@@ -1,7 +1,7 @@
 .cover {
   display: flex;
   flex-direction: column;
-  margin: 92px auto;
+  margin: 92px auto 92px;
   padding: 0;
   max-width: 1184px;
   min-height: 740px;
@@ -21,7 +21,7 @@
 @media screen and (max-width: 1279px) {
   .cover {
     min-height: 640px;
-  max-width: 1024px;
+ 
   }
 }
 
@@ -30,15 +30,16 @@
 @media screen and (max-width: 1023px) {
   .cover {
     min-height: 480px;
-   max-width: 768px;
+  
+   margin: 90px auto 88px;
     
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    max-height: 200px;
+    min-height: 200px;
    max-width: 320px;
-    margin: 66px auto;
+    margin: 66px auto 0;
   }
 }

@@ -6,7 +6,7 @@
   outline: 1px solid red;
   max-width: 1184px;
   padding-bottom: 24px;
-  padding-top: 92px;
+  
 }
 
 @media screen and (max-width: 1279px) {
@@ -18,7 +18,7 @@
 @media screen and (max-width: 1023px) {
   .footer  {
     max-width: 720px;
-    padding-top: 88px;
+    
     padding-right: 24px;
     padding-left: 24px;
   }

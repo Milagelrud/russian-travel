@@ -12,8 +12,10 @@
   max-width: 456px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .place__url-heading {
-    padding-left: 16px;
+    margin: 0 16px 0 16px;
+    max-width: 288px;
+    min-height: 12px;
   }
 }
