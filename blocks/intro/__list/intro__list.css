@@ -1,5 +1,4 @@
 .intro__list {
-
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -7,13 +6,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
 }
 
     
 @media screen and (max-width: 767px) {
   .intro__list {
-   
     font-size: 12px;
     line-height: 18px;
   }

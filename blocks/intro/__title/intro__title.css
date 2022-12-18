@@ -4,7 +4,6 @@
   font-size: 54px;
   line-height: 58px;
   padding: 0;
-  outline: 1px solid red;
   margin: 0;
 }
   
@@ -12,5 +11,5 @@
  .intro__title {
     font-size: 32px;
     line-height: 35px;
-}
+  }
 }

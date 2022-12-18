@@ -5,19 +5,14 @@
   max-width: 720px;
   text-align: center;
   margin: 0;
-  outline: 1px solid red;
 }
 
 @media screen and (max-width: 1279px) {
   .lead__title {
-  
     width: 100%;
-  
-    
   }
 }
  
-  
 @media screen and (max-width: 1023px) {
   .lead__title {
     width: 100%;
@@ -31,7 +26,6 @@
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 16px;
-    
   }
 }
 

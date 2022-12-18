@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  outline: 1px solid red;
   max-width: 456px;
 }
 
@@ -15,6 +14,5 @@
   .place__website {
     min-height: 46px;
     max-width: 288px;
-   
   }
 }
